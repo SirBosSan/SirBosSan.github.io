@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité — Veille immo Montpellier</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem;
+         font: 16px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #8884;
+           font-size: .9rem; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<h1>Règles de confidentialité</h1>
+<p><em>Application « Veille immo Montpellier ». Dernière mise à jour :
+septembre 2026.</em></p>
+
+<h2>Qui traite les données</h2>
+<p>
+  L'application est un script privé exécuté localement par son unique
+  utilisateur, qui en est aussi l'auteur. Il n'y a ni serveur, ni hébergement,
+  ni exploitant tiers.
+</p>
+
+<h2>Données auxquelles l'application accède</h2>
+<ul>
+  <li><strong>Lecture des emails</strong> (<code>gmail.readonly</code>) :
+      pour extraire les annonces immobilières des emails d'alerte.</li>
+  <li><strong>Création de brouillons</strong> (<code>gmail.compose</code>) :
+      pour préparer des messages qui restent en brouillon.</li>
+  <li><strong>Envoi de messages</strong> (<code>gmail.send</code>) :
+      uniquement pour adresser à l'utilisateur lui-même ses propres alertes et
+      son récapitulatif quotidien.</li>
+  <li><strong>Événements d'agenda</strong> (<code>calendar.events</code>) :
+      pour créer les rendez-vous de visite.</li>
+</ul>
+
+<h2>Où vont ces données</h2>
+<p>
+  Nulle part. Les données extraites sont écrites dans un fichier de base de
+  données local, sur l'ordinateur de l'utilisateur. Elles ne sont ni
+  transmises, ni revendues, ni partagées avec un tiers, et ne servent à aucune
+  publicité ni à aucun entraînement de modèle.
+</p>
+<p>
+  Le texte des annonces est envoyé à l'API d'Anthropic pour être analysé et
+  noté. Il s'agit de descriptions d'annonces immobilières publiques ; aucune
+  donnée personnelle de l'utilisateur ni aucun contenu d'email privé n'est
+  transmis dans ce cadre.
+</p>
+
+<h2>Conservation et suppression</h2>
+<p>
+  Les données restent sur l'ordinateur de l'utilisateur aussi longtemps qu'il
+  le souhaite. Il peut les supprimer à tout moment en effaçant le fichier de
+  base de données, et révoquer l'accès de l'application à son compte Google
+  depuis la page « Applications tierces » de son compte Google.
+</p>
+
+<h2>Contact</h2>
+<p>achat.mtp2026@gmail.com</p>
+
+<footer><a href="index.html">Retour à l'accueil</a></footer>
+</body>
+</html>
